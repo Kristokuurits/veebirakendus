@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sünjavanus</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="ülesanne.html">Veebileht</a>
+        <a class="active1" href="tooted.html">Tooted</a>
+        <a class="active2" href="nimed.html">Nimed</a>
+        <a class="active3" href="sünjavanus.html">Sünniaeg ja vanus</a>
+        <a class="active4" href="kaugushüpe.html">Kaugushüpe</a>
+    </div>
+
+    <h1>Inimeste haldus</h1>
+
+    <!-- Sisestusvorm inimese lisamiseks -->
+    <form id="inimeseVorm">
+        <label for="nimi">Nimi:</label>
+        <input type="text" id="nimi" required>
+        <label for="isikukood">Isikukood:</label>
+        <input type="text" id="isikukood" required>
+        <button type="button" onclick="lisaIsik()">Lisa isik</button>
+    </form>
+
+    <!-- Kuvatakse lisatud isikud -->
+    <h2>Lisatud isikud:</h2>
+    <ul id="isikud-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
