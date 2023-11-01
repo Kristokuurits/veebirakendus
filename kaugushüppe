@@ -10,38 +10,3 @@
 </head>
 
 <body>
-   
-
-
-    <div class="topnav">
-        <a class="active" href="ülesanne.html">Veebileht</a>
-        <a class="active1" href="tooted.html">Tooted</a>
-        <a class="active2" href="nimed.html">Nimed</a>
-        <a class="active3" href="sünjavanus.html">Sünniaeg ja vanus</a>
-        <a class="active4" href="kaugushüpe.html">Kaugushüpe</a>
-        </div>
-
-    <div>
-        <table border="1">
-            <tr>
-                <th>Nimi</th>
-                <th>Tulemused</th>
-                <th>Parem tulemus</th>
-                <th>Keskmine tulemus</th>
-            </tr>
-        </table>
-        
-        <h2>Lisa uus tulemus:</h2>
-        <form id="lisatulemus">
-            <label for="nimi">Nimi:</label>
-            <input type="text" id="nimi" name="nimi"><br><br>
-            <label for="tulemus">Tulemus:</label>
-            <input type="number" step="0.01" id="tulemus" name="tulemus"><br><br>
-            <input type="submit" value="Lisa tulemus">
-        </form>
-    </div>
-    
-    <script src="script.js"></script>
-
-</body>
-</html>
